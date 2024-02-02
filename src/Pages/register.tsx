@@ -1,5 +1,5 @@
 import React from 'react'
-// import {FaGoogle} from "react-icons"
+import { FcGoogle } from "react-icons/fc";
 import pics from "./assets/06c275cd-5e3a-44ae-b918-43b1da5f7d3d.jpg"
 
 const register = () => {
@@ -48,6 +48,13 @@ const register = () => {
             className="w-[90%] h-[60px]"
             ></input>
           </div>
+
+          <div className='flex justify-center items-center mt-4 w-[100%] h-[40px]'>
+            <div className='flex justify-center items-center w-[20%] h-[40px]  rounded-md  bg-[#111b21]'>
+              <div className='font-bold text-[25px] text-[white]'>Login</div>
+              </div>
+            </div>
+            
           <div className="w-full">
             {/* <button
               className="w-[90%] h-[50px] text-[14px] bg-green-400 mb-7 flex content-center"
@@ -57,11 +64,11 @@ const register = () => {
         </form>
         {/* Google Area */}
         <div className="w-full mb-7 ">
-          <div className="w-[90%] h-[50px] shadow-md flex justify-center items-center gap-3 bg-pink-400 text-red-500 rounded-md transition-all duration-300 font-medium mt-4">
+          <div className="w-[90%] h-[50px] shadow-md flex justify-center items-center gap-3  text-red-500 rounded-md transition-all duration-300 font-medium mt-4">
             <div className="font-bold text-[25px]">
-              {/* <FaGoogle /> */}
+              <FcGoogle />
             </div>
-            <div className="text-black bg-pink-400">Continue with Google</div>
+            <div className="text-black ">Continue with Google</div>
           </div>
           <div className="flex flex-col"></div>
         </div>

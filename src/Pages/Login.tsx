@@ -2,7 +2,7 @@ import React from 'react'
 import { FcGoogle } from "react-icons/fc";
 import pics from "./assets/61b1826b-8919-4b2a-9e83-c25f7f631c8d.jpg"
 
-const register = () => {
+const login = () => {
   return (
     <div className="w-full h-screen grid md:grid-cols-2 transition-all duration-300">
     {/* <Toaster position="top-center" reverseOrder={false} /> */}
@@ -92,4 +92,4 @@ const register = () => {
   )
 }
 
-export default register
+export default login
