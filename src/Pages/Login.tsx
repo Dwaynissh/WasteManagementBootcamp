@@ -1,6 +1,5 @@
-
 import React from 'react'
-// import {FaGoogle} from "react-icons"
+import { FcGoogle } from "react-icons/fc";
 import pics from "./assets/61b1826b-8919-4b2a-9e83-c25f7f631c8d.jpg"
 
 const register = () => {
@@ -23,13 +22,31 @@ const register = () => {
           className="w-full mt-[40px] flex justify-center items-start flex-col"
         >
           <div className="w-full flex justify-start flex-col">
-          
+            <label htmlFor="" className="w-full mb-4 font-medium">
+              Email
+            </label>
+            <input
+              placeholder="Enter your email"
+              className="w-[90%] h-[60px]"
+              // type="email"
+            //   required
+            //   value={email}
+            //   onChange={(e: any) => {
+            //     setEmail(e.target.value);
+            //   }}
+            />
 
             <label  htmlFor="" className=" mb-4 font-medium w-full mt-4">Password</label>
             <input
             placeholder="Enter your password"
             className="w-[90%] h-[60px]"
             ></input>
+
+            <div className='flex justify-center items-center mt-4'>
+            <div className='flex justify-center items-center w-[20%] h-[40px] rounded-md  bg-[#111b21]'>
+              <div className='font-bold text-[25px] text-[white]'>Login</div>
+              </div>
+            </div>
 
 
           </div>
@@ -42,11 +59,11 @@ const register = () => {
         </form>
         {/* Google Area */}
         <div className="w-full mb-7 ">
-          <div className="w-[90%] h-[50px] shadow-md flex justify-center items-center gap-3 bg-pink-400 text-red-500 rounded-md transition-all duration-300 font-medium mt-4">
+          <div className="w-[90%] h-[50px] shadow-md flex justify-center items-center gap-3  text-red-500 rounded-md transition-all duration-300 font-medium mt-4">
             <div className="font-bold text-[25px]">
-              {/* <FaGoogle /> */}
+              <FcGoogle />
             </div>
-            <div className="text-black bg-pink-400">Continue with Google</div>
+            <div className="text-black ">Continue with Google</div>
           </div>
           <div className="flex flex-col"></div>
         </div>
